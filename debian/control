@@ -1,0 +1,12 @@
+Source: ros-indigo-interactive-marker-proxy
+Section: misc
+Priority: extra
+Maintainer: Russell Toris <rctoris@wpi.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-interactive-markers, ros-indigo-message-generation, ros-indigo-roscpp, ros-indigo-visualization-msgs
+Homepage: http://wiki.ros.org/interactive_marker_proxy
+Standards-Version: 3.9.2
+
+Package: ros-indigo-interactive-marker-proxy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-interactive-markers, ros-indigo-message-runtime, ros-indigo-roscpp, ros-indigo-visualization-msgs
+Description: A Proxy Server for Interactive Markers
