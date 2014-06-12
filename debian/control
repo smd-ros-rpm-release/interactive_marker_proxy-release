@@ -1,0 +1,12 @@
+Source: ros-hydro-interactive-marker-proxy
+Section: misc
+Priority: extra
+Maintainer: Russell Toris <rctoris@wpi.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-interactive-markers, ros-hydro-message-generation, ros-hydro-roscpp, ros-hydro-visualization-msgs
+Homepage: http://wiki.ros.org/interactive_marker_proxy
+Standards-Version: 3.9.2
+
+Package: ros-hydro-interactive-marker-proxy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-interactive-markers, ros-hydro-message-runtime, ros-hydro-roscpp, ros-hydro-visualization-msgs
+Description: A Proxy Server for Interactive Markers
